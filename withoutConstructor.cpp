@@ -2,7 +2,7 @@
 using std::string;
 class Car
 {
-public: // access modifier, if this is not wrutten then by default it is private, then these members cannot be accessed outside of the class
+public: // access modifier -> if this is not written then by default it is private(in c++) and members cannot be accessed outside of the class
     string brand;
     string owner;
     int price;
@@ -17,9 +17,9 @@ public: // access modifier, if this is not wrutten then by default it is private
 
 }; // class must be ended with a semicolon
 
-int main()
-{                            // execution starts from here
-    Car car1;                // object of class is created, this is like (int number, but as we are using class as datatype so Car is datatype and car1 is just some varname)
+int main()                   // execution starts from here
+{
+    Car car1;                // object of class is created, this is like (int number, but as we are using class as datatype so Car is datatype and car1 is obj name)
     car1.brand = "Bughatti"; // object car is used to access the memebrs of the class
     car1.owner = "Elon Musk";
     car1.price = 1000000;
